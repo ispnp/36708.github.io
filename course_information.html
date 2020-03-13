@@ -1,0 +1,25 @@
+<b>Course philosophy (ABCDE):</b> This course focuses on statistical methods for machine learning, a decades-old topic in statistics that now has a life of its own, intersecting with many other fields. While the core focus of this course is methodology (algorithms), the course will have some amount of formalization and rigor (theory/derivation/proof), and some amount of interacting with data (simulated and real). However, the primary way in which this course complements related courses in other departments is the joint ABCDE focus on 
+<ul>
+<li>(A) Algorithm design principles,<br> 
+<li>(B) Bias-variance thinking, <br>
+<li>(C) Computational considerations <br>
+<li>(D) Data analysis <br>
+<li>(E) Explainability and interpretability. <br><br>
+</ul>
+
+
+<b>Non-technical blurb:</b> In the instructor’s opinion, (B) is the most important — every day, researchers come up with yet another new algorithm/model, scale it up by using distributed computing and stochastic optimization, and throw it at a big real dataset (A, C, D). However, in the era of big data, big bias and big variance is a big issue! Instead of producing just predictions, uncertainty quantification is critical for applications (how sure are we of these predictions?). Blindly throwing lots of data and complex black-box models at a problem might produce initially promising results, but the results may be highly variable and non-robust to minor changes in the data or tuning parameters. Importantly, more data does not eliminate bias — "obvious" bias caused by covariate shift or outliers, and "subtle" bias like selection bias, sample bias, confirmation bias, etc. Understanding the variety of different sources of bias and variance, and the effects they can have on the final outputs, is a critical component of using ML algorithms in practice, and will be a central theme of the course. Of course, (E) is also important and often underemphasized, and we will cover some recent methods for interpreting models such as measures for variable importance and/or data-point importance. <br><br>
+
+<b>Technical blurb:</b> The course will cover (some) classical and (some) modern methods in statistical machine learning; the field is so vast that the qualifier "some" is critical. These include unsupervised learning (dimensionality reduction, clustering, generative modeling, etc) and supervised learning (classification, regression, etc). Time permitting we might cover dynamic forms of learning (active learning, reinforcement learning, etc). We will assume basic familiarity with linear/parametric methods, and dwell more on nonlinear/nonparametric methods (kernels, random forests, boosting, neural nets, etc). <br><br>
+
+<b>Critical thinking:</b> Unlike other courses, we will not just list one algorithm after another. Instead, we will work on developing some skepticism when using these methods by asking more nuanced questions. When do these methods “work”, why do they work, and why might they fail? Can we quantitatively measure if they are “working” or “failing”? Rather than just making a prediction, how can we quantify uncertainty of our predictions? How do we compare different regression methods or classification algorithms? How do we select a model from a nested class of models of increasing complexity? Are prediction algorithms useful for hypothesis testing? How can we interpret complex models, for example: what are measures of variable importance and data-point importance? These questions do not all have easy or straightforward answers, but various attempts at formalization and analysis will nevertheless be discussed (and will naturally lead to course projects, and potentially research projects).<br><br>
+
+
+<b>Who should take it:</b> This is a required first year PhD course in the Department of Statistics and Data Science, and so the course will be taught at that level. However, other PhD students from other departments are welcome to attend (as credit or audit) with instructor permission. <br><br>
+
+
+<b>Prerequisites:</b> At the very least, all students should have taken Intermediate Statistics (36705), be proficient at programming in R and/or Python and/or Matlab, and be comfortable with linear algebra, probability, calculus and related topics (see resources below that you should be familiar with). 36700 could possibly substitute for 36705 with permission. Students who have taken 10701, 10715 or 10716 can still take this course, since there are likely to be many complementary and non-intersecting topics. Apart from the unique angle taken by this course, the smaller size of class will ensure more individual attention and instructor interaction, so attendance (especially for crediting) will be selective. 
+<br><br>
+
+
+<b>Instructor:</b> <a href="http://stat.cmu.edu/~aramdas/">Aaditya Ramdas</a> is a core faculty in the Department of Statistics and Data Science and in the Machine Learning Department. He did his postdoc at Berkeley (joint in these two departments) and his PhD at CMU (joint in these two departments). He is an expert on statistical machine learning, sequential inference and multiple testing.<br><br>
